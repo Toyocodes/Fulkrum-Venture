@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fulkrum Ventures</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="fulkrum.css">
+
+    
+    
+</head>
+
+<body onload="slider()">
+    
+    <!-- header section starts -->
+    <marquee behavior="scroll" direction="left" style="font-size: 1.8rem; font-weight: bold; color: #000; margin-bottom: .8rem; margin-top: .3rem; z-index: 2; position: relative;">Welcome to Fulkrum Ventures... </marquee>
+    <header>
+        
+        <h4 class="logo"><i class="fa-solid fa-walkie-talkie"></i>Fulkrum Ventures</h4>
+    
+        <nav class="navbar" id="navbar">
+            <i class="fas fa-times" onclick="closeMenu()" id="fa-times"></i>
+            <a href="#home" >HOME<i class="fa-solid fa-house"></i></a>
+            <a href="about.html">ABOUT<i class="fa-solid fa-wrench"></i></a>
+            <a href="product.html">PRODUCTS<i class="fa-solid fa-walkie-talkie"></i></a>
+            <a href="#footer">SERVICES<i class="fa-solid fa-wrench"></i></a>
+            <a href="#faq">FAQs<i class="fa-solid fa-question"></i></a>
+        </nav>
+
+        <div>
+            <!-- <i class="fa fa-cart-plus" id="cart-icon" onclick="addToCart()"></i> -->
+            <a href="contact.html"><button class="contact-btn">Contact Us </button></a>
+        </div>
+
+        <div id="menubar">  
+            <i class="fas fa-bars"></i>
+        </div> 
+
+
+    </header>
+    
+     <!-- header section ends-->
+
+
+    <!-- home section begins -->
+    <section class="home" id="home">
+        <div class="home-row">
+            <div class="col-1">
+                <h1>FULKRUM VENTURES FOCUSES ON LINKING PEOPLE TOGETHER.</h1>
+                <p>We give you the fulcrum and a place to stand on if you want to move the world. 
+                    In Fulkrum Ventures, we help you stay connected.
+                </p>
+            
+                <!-- <ul>
+                    <li class="btn active"></li>
+                    <li class="btn"></li>
+                    <li class="btn"></li>
+                    <li class="btn"></li>
+                </ul> -->
+            
+            
+            </div>
+            <div class="col-2">
+                <img src="people-talkie.jpg" alt="" id="slideImg">
+            </div>
+        </div>
+    </section>
+    <!-- home section ends -->
+
+
+    <section id="part-two" class="part-two" data-aos="fade-in">
+        <h1>OUR MAIN FOCUS</h1>
+        <div class="part-two-row">
+            
+            <div class="part-two-col">
+                <img src="F-icons/cctv-camera.png" alt="">
+                <h3>Supply CCTV</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis autem minima iste neque, dolorem tempora!</p>
+            </div>
+            <div class="part-two-col">
+                <img src="F-icons/antenna.png" alt="">
+                <h3>Satellite dish</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eaque error in eius molestias odit.</p>
+            </div>
+            <div class="part-two-col">
+                <img src="F-icons/walkie-talkie.png" alt="">
+                <h3>Radio Walkie-Talkie</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam autem cupiditate numquam minima corporis blanditiis.</p>
+            </div>
+        </div>
+    </section>
+
+
+    
+<section class="short-gif" id="short-gif" data-aos="fade-left">
+    <div class="gif-section">
+        
+        <div class="gif-video">
+            <img src="F-icons/fulcrum-video.gif" alt="">
+        </div>
+
+        <div class="gif-content">
+            <h3>LETS HELP YOU MAKE YOUR COMMUNICATION EASIER WITHOUT ANY STRENIOUS EFFORT</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae accusamus rem temporibus quos quasi ut!</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="review" id="review" data-aos="fade-up">
+
+    <h1> WHAT OUR CUSTOMERS SAYS</h1>
+
+    <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+                <img src="images/flutterwave.jpeg" alt="">
+                <div class="testimonial-info">
+                <h3>Flutterwave</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="images/flutterwave.jpeg" alt="">
+                <div class="testimonial-info">
+                <h3>Flutterwave</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="images/skillpaddy.jpg" alt="">
+                <div class="testimonial-info">
+                <h3>Skillpaddy</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="yellow-talkie.png" alt="">
+                <div class="testimonial-info">
+                    <h3>Molaj School</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+       
+       
+
+    </div>
+
+</section> 
+
+ <!-- customers Review ends -->
+
+
+    <!-- faq section begins -->
+    
+    <section class="faq" id="faq" data-aos="fade-up">
+        <h1 class="faq-heading">Frequently Asked Questions</h1>
+        <div class="faq-container">
+            <div class="faq-one">
+
+                <!-- faq question -->
+                <h1 class="faq-question">How can I place an order?</h1>
+
+                <!-- faq answer -->
+                <div class="faq-answer">
+                    <p>To place an order on our website, all you have to do is click on the "contact us" button 
+                        above, and chat us on our whatsapp </p>
+                </div>
+            </div>
+            <hr class="hr-line">
+
+            <div class="faq-two">
+
+                <!-- faq question -->
+                <h1 class="faq-question">How long will it take for me to get my order?</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-answer">
+                    <p>Orders are shipped out immediately payments are made. Payment Validates Order</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+
+
+            <div class="faq-three">
+
+                <!-- faq question -->
+        <h1 class="faq-question">After the installation of the CCTV, do you offer frequent maintenance?</h1>
+
+                <!-- faq answer -->
+                <div class="faq-answer">
+                    <p>Yes, we maintain the CCTV cameras of clients who request for it. 
+                        We advice monthly maintenance should be carried out on CCTV cameras and Walkie-Talkies.</p>
+                </div>
+            </div>
+        
+            <div class="faq-four">
+
+                <!-- faq question -->
+        <h1 class="faq-question">Do you only offer your services in Lagos?</h1>
+
+                <!-- faq answer -->
+                <div class="faq-answer">
+                    <p>NO, we offer our services all over the 36 states in Nigeria.</p>
+                </div>
+            </div>
+
+            <div class="faq-five">
+
+                <!-- faq question -->
+        <h1 class="faq-question">Do you sell all brands of laptop?</h1>
+
+                <!-- faq answer -->
+                <div class="faq-answer">
+                    <p>Yes, we sell laptops of various brands based on your preference,</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- faq section ends -->
+
+    
+<!-- footer section begins -->
+
+    <section id="footer" class="footer">
+
+
+    <div class="footer-row">
+
+        <div class="footer-col">
+            <h3>Services</h3>
+            <ul>
+                
+                <li>CCTV Camera Intallation</li>
+                <li>Satellite Installation</li>
+                <li>Radio Walkie Talkie Installation</li>
+                
+            </ul>
+        </div>
+        
+
+        <div class="footer-col">
+            <h3>Get in Touch</h3>
+            <h4><i class="fa-solid fa-location-dot"></i>Address</h4>  
+            <p> Plot 4A, Bevery Hills, U.S.A.</p>
+            <h4><i class="fa-solid fa-envelope"></i>Email</h4>
+            <p>fulkrumventures@gmail.com</p>
+            <h4><i class="fa-solid fa-phone"> </i>Phone</h4>
+            <p>+01-3445000</p>
+        </div>
+
+        <div class="newsletter">
+            <h3>Join Our Newsletter</h3>
+            <input type="email" placeholder="Enter your Email Address..." id="newletter-form">
+            <input type="submit" value="Sign Up" id="email-btn">
+                <br>
+           <a href="http://www.facebook.com"><img src="F-icons/facebook.png" alt="" class="social-icons"></a> 
+           <a href="http://www.instagram.com"><img src="F-icons/instagram.png" alt="" class="social-icons"></a> 
+           <a href="http://www.linkedin.com"><img src="F-icons/linkedin.png" alt="" class="social-icons"></a> 
+           <a href="http://www.gmail.com"><img src="F-icons/gmail.png" alt="" class="social-icons"></a> 
+        </div>
+            
+
+</div>
+        
+        <div class="footer-name">
+        
+        <p>Fulkrum. &copy <span id="date">2020</span>. all rights reserved</p>
+        </div>
+               
+    </footer>
+
+     <!-- footer section ends -->
+
+    </section>
+
+    <a class="navbar top-link" href="#home">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+
+      <!-- javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset:400,
+        duration:300
+    });
+  </script>
+    <script src="fulkrum.js"></script>
+</body>
+</html>
